@@ -4,6 +4,8 @@ search: false
 categories: 
   - Jekyll
 last_modified_at: 2018-02-19T08:05:34-05:00
+
+toc: true
 ---
 
 This post should not appear in the search index because it has the following YAML Front Matter:
@@ -27,3 +29,6 @@ algolia:
     - _posts/2017-11-28-post-exclude-search.md
     - subdirectory/*.html
 ```
+
+## 우와 개쩔어
+> 짱이다
