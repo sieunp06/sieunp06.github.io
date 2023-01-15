@@ -1,10 +1,10 @@
 ---
-title: "🐳Docker & Kubernetes"
+title: "🐱Git"
 layout: archive
-permalink: categories/docker
+permalink: categories/git
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Docker %}
+{% assign posts = site.categories.Git %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
