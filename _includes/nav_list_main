@@ -6,45 +6,82 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
-      <li>
-        <span style="font-size: 75%;">📂 전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}} 개</style> 
-      </li>
-      <li>
+        <!--전체 글 수-->
+        <li>
+            <span style="font-size: 75%;">📂 전체 글 수</style> <span style="font: bold;">{{sum}} 개</style> 
+        </li>
+        <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">C/C++/C#</span>
+        <span class="nav__sub-title">🤟Daily</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
+                    {% if category[0] == "Thought" %}
+                        <li><a href="/categories/thougth" class="">💭생각들 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Playing" %}
+                        <li><a href="/categories/playing" class="">✌나 놀고 왔다({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">📚Studying</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "React" %}
+                        <li><a href="/categories/react" class="">🌺React ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "SpringBoot" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/springboot" class="">🍀Spring Boot ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">xptmxm ({{category[1].size}})</a></li>
+                    {% if category[0] == "Docker" %}
+                        <li><a href="/categories/docker" class="">🐳Docker & Kubernetes ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
+        <span class="nav__sub-title">Programming Language</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "Java" %}
+                        <li><a href="/categories/java" class="">☕Java ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "SpringBoot" %}
+                        <li><a href="/categories/python" class="">🐍Python ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
+        <span class="nav__sub-title">📝Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BojJava" %}
+                        <li><a href="/categories/bojjava" class="">🦢백준(java) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ProgrammersJava" %}
+                        <li><a href="/categories/programmersjava" class="">🦆프로그래머스(java) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
   </ul>
 </nav>
