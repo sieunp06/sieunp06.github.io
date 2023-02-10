@@ -2,9 +2,9 @@
 title:  "☕ [Java] 까먹지말자 subString"
 search: false
 categories: 
-  - AWS
+  - Java
 tag:
-  - AWS Budget
+  - Java
 toc: true
 ---
 
