@@ -97,5 +97,14 @@
                 {% endfor %}
             </ul>
         </li>
+        <span class="nav__sub-title">📖Books</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CleanCode" %}
+                        <li><a href="/categories/cleancode" class="">🧹Clean Code ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
   </ul>
 </nav>
