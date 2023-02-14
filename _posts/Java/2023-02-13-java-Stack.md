@@ -45,7 +45,7 @@ Stack<E> st = new Stack<>();
     - 스택 맨 위의 item을 리턴함.
 4. size()
     - 스택의 사이즈를 리턴함.
-5. empty()
+5. isEmpty()
     - 스택이 비었는지 확인함.
     - 스택이 비었으면 true, 비어있지 않으면 false를 리턴함.
 6. contains(E item)
@@ -55,3 +55,29 @@ Stack<E> st = new Stack<>();
     - 스택의 전체 값을 제거함.
 
 - reference: [oracle docs - stack](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+
+## Stack 사용 예제
+```java
+import java.util.Stack;
+
+public class Main {
+    public static void main (String[] args) { 
+        Stack<Integer> st = new Stack<>();
+
+        st.push(1);     // 스택에 1을 추가합니다.   // [1]
+        st.push(2);     // 스택에 2를 추가합니다.   // [1, 2]
+        st.peek();      // 스택 맨위의 item을 리턴합니다.   // 2
+
+        st.contains(2); // 스택에 2가 포함되어 있는지 확인합니다.   // true
+        st.contains(4); // false
+
+        st.isEmpty();   // 스택이 비었는지 확인합니다.  // false
+
+        st.pop();       // 스택 맨위의 item을 제거합니다.   // [1]
+        st.size();      // 스택의 크기를 확인합니다.    // 1
+
+        st.clear();     // 스택 안의 전체 값을 제거합니다.    // []
+        st.isEmpty();   // true
+    }
+}
+```
