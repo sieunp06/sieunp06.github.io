@@ -1,5 +1,5 @@
 ---
-title:  "☕ [Java] 까먹지말자 subString"
+title:  "☕ [Java] 까먹지말자 substring"
 search: false
 categories: 
   - Java
