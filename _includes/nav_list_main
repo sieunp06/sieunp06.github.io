@@ -33,8 +33,15 @@
         <span class="nav__sub-title">📁Projects</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Thought" %}
-                        <li><a href="/categories/thought" class="">✅Todo ({{category[1].size}})</a></li>
+                    {% if category[0] == "Todo" %}
+                        <li><a href="/categories/todo" class="">✅Todo ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "pickgether" %}
+                        <li><a href="/categories/Pickgether" class="">💌Pickgether ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
