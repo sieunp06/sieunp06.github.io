@@ -6,6 +6,8 @@ categories:
 tag:
   - Error
 toc: true
+
+published: true
 ---
 
 > 사용 중인 포트를 Cmd에서 kill 하는 방법!
