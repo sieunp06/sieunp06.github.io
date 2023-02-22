@@ -4,10 +4,10 @@ search: false
 categories: 
   - Others
 tag:
-  - Windows
   - Error
 toc: true
 ---
+
 
 > 사용 중인 포트를 Cmd에서 kill 하는 방법!
 
