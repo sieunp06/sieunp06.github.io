@@ -1,5 +1,5 @@
 ---
-title: "💡TIPS"
+title: "💡Tips"
 layout: archive
 permalink: categories/tips
 author_profile: true

@@ -48,6 +48,13 @@
         <span class="nav__sub-title">📚Studying</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Tips" %}
+                        <li><a href="/categories/tips" class="">💡Tips ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "React" %}
                         <li><a href="/categories/react" class="">🌺React ({{category[1].size}})</a></li>
                     {% endif %}
@@ -78,13 +85,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "AWS" %}
                         <li><a href="/categories/aws" class="">🙂AWS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Tips" %}
-                        <li><a href="/categories/tips" class="">💡Tips ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
