@@ -1,8 +1,8 @@
 ---
-title:  "[Windows] 사용 중인 포트를 kill 하는 방법을 알아보자!"
+title:  "💡[Windows] 사용 중인 포트를 kill 하는 방법을 알아보자!"
 search: false
 categories: 
-  - Others
+  - Tips
 tag:
   - Error
 toc: true
