@@ -6,6 +6,7 @@ categories:
 tag:
   - Error
 toc: true
+published: true
 ---
 
 > 나에게 너무 어려운 프론트엔드
