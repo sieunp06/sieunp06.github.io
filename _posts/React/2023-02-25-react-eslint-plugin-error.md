@@ -1,5 +1,5 @@
 ---
-title: "🌺 [ERROR] [eslint] plugin 'react' was conflicted between 'package.json' and 'eslint-config-react-app'"
+title: "🌺 [ERROR] [eslint] plugin \"react\" was conflicted between 'package.json' and 'eslint-config-react-app'"
 search: false
 categories: 
   - React
