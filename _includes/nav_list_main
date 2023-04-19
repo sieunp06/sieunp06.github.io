@@ -23,13 +23,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Playing" %}
-                        <li><a href="/categories/playing" class="">✌나 놀고 왔다({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
         <span class="nav__sub-title">📁Projects</span>
             <ul>
                 {% for category in site.categories %}
@@ -50,13 +43,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Tips" %}
                         <li><a href="/categories/tips" class="">💡Tips ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "React" %}
-                        <li><a href="/categories/react" class="">🌺React ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -93,13 +79,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Java" %}
                         <li><a href="/categories/java" class="">☕Java ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "python" %}
-                        <li><a href="/categories/python" class="">🐍Python ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
