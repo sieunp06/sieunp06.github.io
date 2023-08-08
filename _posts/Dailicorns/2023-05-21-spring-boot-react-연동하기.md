@@ -1,21 +1,14 @@
 ---
-title:  "✅ [What Todo]Spring boot와 React 연동하기"
+title:  "✅ [Dailicorns]Spring boot와 React 연동하기"
 search: false
 categories: 
-  - SpringBoot
+  - Dailicorns
 toc: true
 ---
 
 > spring boot와 react를 연동해보자!
 
 <br>
-
-# Dailius 첫 프로젝트
-컴퓨터공학과에 진학한 고등학교 동창과 작년에 github organization을 만들었었다.
-
-만들어놓고 서로 바빠서 프로젝트를 진행하지 못하고 있었는데, 이번에 본격적으로 프로젝트를 진행하기 전 간단한 Todo 웹 서비스를 만들어보기로 결정했다.
-
-이번 Todo 서비스는 `Spring Boot`와 `React`를 사용하여 개발하기로 했기 때문에, 이 둘을 연동하는 방법에 대해 찾아보았다.
 
 # Spring Boot와 React 연동하기
 시작하기 전에, `Spring Boot` 프로젝트가 이미 생성되어 있고, `React`도 다운받아져 있다는 가정하에 작성한 글임을 참고 바란다.
