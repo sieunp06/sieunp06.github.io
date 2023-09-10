@@ -26,86 +26,48 @@
         <span class="nav__sub-title">📁Projects</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Dailicorns" %}
-                    <li><a href="/categories/dailicorns" class="">🍿 Dailicorns ({{category[1].size}})</a></li>
+                {% if category[0] == "Lire_Livre" %}
+                    <li><a href="/categories/lire_livre" class="">📓 Lire Livre ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
-        <span class="nav__sub-title">📚Studying</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Tips" %}
-                        <li><a href="/categories/tips" class="">💡 Tips ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "SpringBoot" %}
-                        <li><a href="/categories/springboot" class="">🍀 Spring Boot ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Docker" %}
-                        <li><a href="/categories/docker" class="">🐳 Docker & Kubernetes ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">🐱 Git ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AWS" %}
-                        <li><a href="/categories/aws" class="">🙂 AWS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+        <span class="nav__sub-title"> Backend</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "SpringBoot" %}
+                    <li><a href="/categories/springboot" class="">🍀 Spring Boot ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Flask" %}
+                    <li><a href="/categories/flask" class="">🌶 Flask ({{category[1].size}})</a></li>
+                {% endif %}     
+            {% endfor %}
+        </ul>
+        <span class="nav__sub-title"> Frontend</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "React" %}
+                    <li><a href="/categories/react" class="">🌟 React ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
         <span class="nav__sub-title">📓Programming Language</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Java" %}
-                        <li><a href="/categories/java" class="">☕ Java ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Javascript" %}
-                        <li><a href="/categories/javascript" class="">🍍 Javascript ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">📝Coding Test</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "BojJava" %}
-                        <li><a href="/categories/bojjava" class="">🦢 Baekjoon(java) ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ProgrammersJava" %}
-                        <li><a href="/categories/programmersjava" class="">🦆 Programmers(java) ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-        <span class="nav__sub-title">📖Books</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CleanCode" %}
-                        <li><a href="/categories/cleancode" class="">🧹 Clean Code ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Java" %}
+                    <li><a href="/categories/java" class="">☕ Java ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Python" %}
+                    <li><a href="/categories/python" class="">🐍 Python ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
   </ul>
 </nav>
