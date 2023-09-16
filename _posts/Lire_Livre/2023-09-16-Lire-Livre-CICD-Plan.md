@@ -1,5 +1,5 @@
 ---
-title:  "CICD 계획 변화에 대해"
+title:  "[📚Lire Livre] CICD 계획 변화에 대해"
 search: false
 categories: 
   - Lire_Livre
