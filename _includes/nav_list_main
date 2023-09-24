@@ -40,8 +40,8 @@
         </ul>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Flask" %}
-                    <li><a href="/categories/flask" class="">🌶 Flask ({{category[1].size}})</a></li>
+                {% if category[0] == "Nodejs" %}
+                    <li><a href="/categories/nodejs" class="">🥝 Node.js ({{category[1].size}})</a></li>
                 {% endif %}     
             {% endfor %}
         </ul>
@@ -51,6 +51,31 @@
             {% for category in site.categories %}
                 {% if category[0] == "React" %}
                     <li><a href="/categories/react" class="">🌟 React ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title"> 🧱 Database</span>
+        <!-- <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Docker" %}
+                    <li><a href="/categories/docker" class="">🐳 Docker ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> -->
+
+        <span class="nav__sub-title"> ♾ Devops</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Git" %}
+                    <li><a href="/categories/git" class="">😺 Git ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Docker" %}
+                    <li><a href="/categories/docker" class="">🐳 Docker ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -65,8 +90,8 @@
         </ul>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Python" %}
-                    <li><a href="/categories/python" class="">🐍 Python ({{category[1].size}})</a></li>
+                {% if category[0] == "Javascript" %}
+                    <li><a href="/categories/javascript" class="">🍋 Javascript ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
