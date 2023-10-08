@@ -31,10 +31,7 @@ yarn add react-router-dom
 아래 이미지를 보면 `네이버로 시작하기`, `카카오로 시작하기`, `이메일로 시작하기` 세 가지 로그인 방식이 있다.
 우선 이 글에서는 `이메일로 시작하기` 버튼을 누르면 이메일로 로그인할 수 있도록 페이지를 이동하게 만들 것이다.
 
-<center>
-
 ![picture1](./images/2023-10-01-react-router-dom/1.png)
-</center>
 
 현재 `App.js`에는 `SocialLoginPage`만 덩그라니 혼자 있다.
 ```jsx
@@ -97,17 +94,12 @@ export default App;
 
 구현한대로라면 `"/"`에 `SocialLoginPage`, `"/login/email"`에 `EmailLoginPage`가 나타나야 한다.
 
-<center>
-
 ![picture1](./images/2023-10-01-react-router-dom/2.png)
-</center>
 
 우선 `"/"`에는 구현해둔 `SocialLoginPage`가 잘 렌더링 되는 것을 확인할 수 있다.
 
-<center>
-
 ![picture1](./images/2023-10-01-react-router-dom/3.png)
-</center>
+
 `"/login/email"`에도 `EmailLoginPage`가 잘 나타난다!
 (위 화면은 아직 구현하지 않았다.)
 
@@ -139,10 +131,8 @@ export default SocialButtons;
 ```
 위 코드는 아래 이미지처럼 세 버튼을 구현한 코드이다.
 
-<center>
-
 ![picture1](./images/2023-10-01-react-router-dom/4.png)
-</center>
+
 나는 위 세 버튼 중 `이메일로 시작하기` 버튼을 클릭하면 `EmailLoginPage`로 이동하도록 만들고 싶다. 
 
 위  `📄 SocialButton.jsx`를 아래처럼 변경한다.
@@ -182,16 +172,12 @@ export default SocialButtons;
 
 ### 결과
 `Link` 태그를 사용하여 `이메일로 시작하기` 버튼을 눌렀을 때, `EmailLoginPage`가 나타날 수 있도록 변경하였다.
-<center>
 
 ![picture1](./images/2023-10-01-react-router-dom/5.png)
-</center>
+
 해당 화면에서 이메일로 시작하기 버튼을 누르면 URL이 `localhost:3000/login/email`로 변경되며 `EmailLoginPage`이 나타난다.
 
-<center>
-
 ![picture1](./images/2023-10-01-react-router-dom/6.png)
-</center>
 
 # Reference
 - https://jinyisland.kr/post/react-router/
