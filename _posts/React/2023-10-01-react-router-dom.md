@@ -4,8 +4,7 @@ search: false
 categories: 
   - React
 tag:
-  - react-router-dom
-  - Lire_Livre
+  - Lire Livre
 toc: true
 ---
 

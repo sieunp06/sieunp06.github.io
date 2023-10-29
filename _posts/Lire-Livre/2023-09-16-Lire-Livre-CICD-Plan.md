@@ -2,11 +2,9 @@
 title:  "[📚Lire Livre] CICD 계획 변화에 대해"
 search: false
 categories: 
-  - Lire_Livre
+  - Lire-Livre
 tag:
-  - Lire_Livre
   - Plan
-  - CICD
 toc: true
 ---
 

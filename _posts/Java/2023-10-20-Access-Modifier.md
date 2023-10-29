@@ -4,8 +4,7 @@ search: false
 categories: 
   - Java
 tag:
-  - Java
-  - WooacoursePre
+  - 우아한테크코스 프리코스 6기
 toc: true
 ---
 

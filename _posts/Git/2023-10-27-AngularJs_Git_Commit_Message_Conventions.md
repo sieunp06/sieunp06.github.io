@@ -4,9 +4,7 @@ search: false
 categories: 
   - Git
 tag:
-  - Devops
-  - Git
-  - WooacoursePre
+  - 우아한테크코스 프리코스 6기
 toc: true
 ---
 

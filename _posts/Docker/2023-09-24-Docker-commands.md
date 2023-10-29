@@ -5,7 +5,6 @@ categories:
   - Docker
 tag:
   - Devops
-  - Docker
 toc: true
 ---
 

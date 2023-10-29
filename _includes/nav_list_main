@@ -15,7 +15,7 @@
         <span class="nav__sub-title"> 🤟Daily</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "WooacoursePre" %}
+                {% if category[0] == "Wooacourse-Pre" %}
                     <li><a href="/categories/wooacoursepre" class="">🧙‍♀️ 우아한테크코스 프리코스 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
@@ -25,8 +25,8 @@
         <span class="nav__sub-title"> 📁Projects</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Lire_Livre" %}
-                    <li><a href="/categories/lire_livre" class="">📓 Lire Livre ({{category[1].size}})</a></li>
+                {% if category[0] == "Lire-Livre" %}
+                    <li><a href="/categories/lire-livre" class="">📓 Lire Livre ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -34,8 +34,8 @@
         <span class="nav__sub-title"> 💻 Backend</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "SpringBoot" %}
-                    <li><a href="/categories/springboot" class="">🍀 Spring Boot ({{category[1].size}})</a></li>
+                {% if category[0] == "Spring-Boot" %}
+                    <li><a href="/categories/spring-boot" class="">🍀 Spring Boot ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -48,8 +48,8 @@
         </ul>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Architecture_Pattern" %}
-                    <li><a href="/categories/architecture_pattern" class="">🏠 Architecture Pattern ({{category[1].size}})</a></li>
+                {% if category[0] == "Architecture-Pattern" %}
+                    <li><a href="/categories/architecture-pattern" class="">🏠 Architecture Pattern ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
