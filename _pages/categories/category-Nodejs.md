@@ -1,5 +1,5 @@
 ---
-title: "🥝 Nodejs"
+title: "🥝Nodejs"
 layout: archive
 permalink: categories/nodejs
 author_profile: true

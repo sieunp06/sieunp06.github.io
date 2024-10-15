@@ -12,21 +12,11 @@
         </li>
         <li>
 
-        <span class="nav__sub-title"> 🤟Daily</span>
+        <span class="nav__sub-title"> 👽 Me</span>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Wooacourse-Pre" %}
-                    <li><a href="/categories/wooacoursepre" class="">🧙‍♀️ 우아한테크코스 프리코스 ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-
-        <span class="nav__sub-title"> 📁Projects</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Lire-Livre" %}
-                    <li><a href="/categories/lire-livre" class="">📓 Lire Livre ({{category[1].size}})</a></li>
+                    <li><a href="/categories/wooacoursepre" class="">🌌 우아한테크코스 프리코스 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -46,76 +36,12 @@
                 {% endif %}     
             {% endfor %}
         </ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Architecture-Pattern" %}
-                    <li><a href="/categories/architecture-pattern" class="">🏠 Architecture Pattern ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Design-Pattern" %}
-                    <li><a href="/categories/design-pattern" class="">🧶 Design Pattern ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <span class="nav__sub-title"> 🖥 Frontend</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "React" %}
-                    <li><a href="/categories/react" class="">🌟 React ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <span class="nav__sub-title"> 🧱 Database</span>
-        <!-- <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Docker" %}
-                    <li><a href="/categories/docker" class="">🐳 Docker ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul> -->
-
-        <span class="nav__sub-title"> ♾ Devops</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Git" %}
-                    <li><a href="/categories/git" class="">😺 Git ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Docker" %}
-                    <li><a href="/categories/docker" class="">🐳 Docker ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
 
         <span class="nav__sub-title"> 📓Programming Language</span>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Java" %}
                     <li><a href="/categories/java" class="">☕ Java ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Javascript" %}
-                    <li><a href="/categories/javascript" class="">🍋 Javascript ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <span class="nav__sub-title"> 🎪 IDE</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "IntelliJ" %}
-                    <li><a href="/categories/intellij" class="">🏳️‍🌈 IntelliJ ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
