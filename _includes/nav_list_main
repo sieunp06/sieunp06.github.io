@@ -21,6 +21,15 @@
             {% endfor %}
         </ul>
 
+        <span class="nav__sub-title"> ⚡ Computer Science</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ETC" %}
+                    <li><a href="/categories/etc" class="">✨ ETC ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
         <span class="nav__sub-title"> 💻 Backend</span>
         <ul>
             {% for category in site.categories %}
