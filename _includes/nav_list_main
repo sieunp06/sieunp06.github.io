@@ -13,13 +13,6 @@
         <li>
 
         <span class="nav__sub-title"> 👽 Me</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Wooacourse-Pre" %}
-                    <li><a href="/categories/wooacoursepre" class="">🌌 우아한테크코스 프리코스 ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
 
         <span class="nav__sub-title"> ⚡ Computer Science</span>
         <ul>
