@@ -13,12 +13,10 @@
         <li>
 
         <span class="nav__sub-title"> 👽 Me</span>
-
-        <span class="nav__sub-title"> ⚡ Computer Science</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "ETC" %}
-                    <li><a href="/categories/etc" class="">✨ ETC ({{category[1].size}})</a></li>
+                {% if category[0] == "Ssafy-First-Project" %}
+                    <li><a href="/categories/ssafy-first" class="">📘 [SSAFY] 공통 프로젝트 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -27,15 +25,56 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Spring-Boot" %}
-                    <li><a href="/categories/spring-boot" class="">🍀 Spring Boot ({{category[1].size}})</a></li>
+                    <li><a href="/categories/spring-boot" class="">🌱 Spring Boot ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title"> 🎨 Frontend</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "React" %}
+                    <li><a href="/categories/react" class="">⚛️ React ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Nodejs" %}
-                    <li><a href="/categories/nodejs" class="">🥝 Node.js ({{category[1].size}})</a></li>
+                {% if category[0] == "Vue" %}
+                    <li><a href="/categories/vue" class="">🌿 Vue3 ({{category[1].size}})</a></li>
                 {% endif %}     
+            {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title"> 🚀 Devops</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "AWS" %}
+                    <li><a href="/categories/aws" class="">☁️ AWS ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Github-Actions" %}
+                    <li><a href="/categories/github-actions" class="">🤖 Github Actions ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Genkins" %}
+                    <li><a href="/categories/genkins" class="">🧱 Genkins ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title"> ⚡ Computer Science</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ETC" %}
+                    <li><a href="/categories/etc" class="">🌀 ETC ({{category[1].size}})</a></li>
+                {% endif %}
             {% endfor %}
         </ul>
 
