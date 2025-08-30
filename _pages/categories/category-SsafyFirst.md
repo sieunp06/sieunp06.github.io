@@ -1,5 +1,5 @@
 ---
-title: "📘[SSAFY] 공통 프로젝트"
+title: "📘[SSAFY] Questory"
 layout: archive
 permalink: categories/ssafy-first
 author_profile: true

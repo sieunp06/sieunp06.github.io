@@ -16,7 +16,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Ssafy-First-Project" %}
-                    <li><a href="/categories/ssafy-first" class="">📘 [SSAFY] 공통 프로젝트 ({{category[1].size}})</a></li>
+                    <li><a href="/categories/ssafy-first" class="">📘 [SSAFY] Questory ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
